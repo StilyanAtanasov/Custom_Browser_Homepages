@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home screen</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
@@ -15,92 +16,204 @@
     />
   </head>
   <body>
-    <form
-      class="search-form"
-      method="GET"
-      action="https://www.google.com/search"
-    >
-      <i class="fa-brands fa-google googleBTN"></i>
-      <input
-        class="search-input"
-        name="q"
-        type="text"
-        placeholder="Search..."
-      />
-      <button class="search-button" type="submit">
-        <i class="fa-duotone fa-magnifying-glass"></i>
-      </button>
-    </form>
+    <!-- Header -->
+    <header>
+      <h1>HOMEPAGE</h1>
+      <form
+        class="search-form"
+        method="GET"
+        action="https://www.google.com/search"
+      >
+        <i class="fa-brands fa-google googleBTN"></i>
+        <input
+          class="search-input"
+          name="q"
+          type="text"
+          placeholder="Search..."
+        />
+        <button class="search-button" type="submit">
+          <i class="fa-regular fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </header>
 
+    <!-- Links -->
     <main>
       <div class="section">
-        <span class="title">MEDIA LINKS</span>
+        <span class="title">SOCIAL MEDIA</span>
 
         <button class="btn">
-          <a href="https://www.youtube.com/" target="_blank"
-            ><i class="fa-brands fa-youtube"></i> YouTube
-          </a>
+          <a href="https://www.youtube.com/" target="_blank">YouTube</a>
         </button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
+        <button class="btn">
+          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+        </button>
+        <button class="btn">
+          <a href="https://github.com/" target="_blank">GitHub</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>
+        </button>
+        <button class="btn">
+          <a href="https://twitter.com/" target="_blank">X</a>
+        </button>
       </div>
 
       <div class="section">
         <span class="title">WORK</span>
 
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
+        <button class="btn">
+          <a href="https://slack.com/" target="_blank">Slack</a>
+        </button>
+        <button class="btn">
+          <a href="https://trello.com/" target="_blank">Trello</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.dropbox.com/" target="_blank">Dropbox</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.google.com/drive/" target="_blank"
+            >Google Drive</a
+          >
+        </button>
+        <button class="btn">
+          <a
+            href="https://www.microsoft.com/en-us/microsoft-365"
+            target="_blank"
+            >Microsoft 365</a
+          >
+        </button>
+        <button class="btn">
+          <a href="https://www.asana.com/" target="_blank">Asana</a>
+        </button>
+        <button class="btn">
+          <a href="https://zoom.us/" target="_blank">Zoom</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.zoho.com/" target="_blank">Zoho</a>
+        </button>
       </div>
 
       <div class="section">
         <span class="title">TECH</span>
 
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
+        <button class="btn">
+          <a href="https://techcrunch.com/" target="_blank">TechCrunch</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.theverge.com/" target="_blank">The Verge</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.wired.com/" target="_blank">Wired</a>
+        </button>
+        <button class="btn">
+          <a href="https://mashable.com/" target="_blank">Mashable</a>
+        </button>
+        <button class="btn">
+          <a href="https://arstechnica.com/" target="_blank">Ars Technica</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.engadget.com/" target="_blank">Engadget</a>
+        </button>
+        <button class="btn">
+          <a href="https://gizmodo.com/" target="_blank">Gizmodo</a>
+        </button>
+        <button class="btn">
+          <a href="https://thenextweb.com/" target="_blank">The Next Web</a>
+        </button>
       </div>
 
       <div class="section">
-        <span class="title">WEB</span>
+        <span class="title">STORES</span>
 
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
+        <button class="btn">
+          <a href="https://www.amazon.com/" target="_blank">Amazon</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.alibaba.com/" target="_blank">Alibaba</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.ebay.com/" target="_blank">eBay</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.walmart.com/" target="_blank">Walmart</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.apple.com/" target="_blank">Apple Store</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.target.com/" target="_blank">Target</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.bestbuy.com/" target="_blank">Best Buy</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.aliexpress.com/" target="_blank">AliExpress</a>
+        </button>
       </div>
 
       <div class="section">
-        <span class="title">RANDOM</span>
+        <span class="title">NEWS</span>
 
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
-        <button class="btn"><a href="" target="_blank">link</a></button>
+        <button class="btn">
+          <a href="https://www.bbc.com/news" target="_blank">BBC News</a>
+        </button>
+        <button class="btn">
+          <a href="https://edition.cnn.com/" target="_blank">CNN</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.nytimes.com/" target="_blank"
+            >The New York Times</a
+          >
+        </button>
+        <button class="btn">
+          <a href="https://www.theguardian.com/international" target="_blank"
+            >The Guardian</a
+          >
+        </button>
+        <button class="btn">
+          <a href="https://www.wsj.com/" target="_blank"
+            >The Wall Street Journal</a
+          >
+        </button>
+        <button class="btn">
+          <a href="https://www.aljazeera.com/" target="_blank">Al Jazeera</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.bloomberg.com/" target="_blank">Bloomberg</a>
+        </button>
+        <button class="btn">
+          <a href="https://www.reuters.com/" target="_blank">Reuters</a>
+        </button>
       </div>
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Stilyan Atanasov</p>
+    </footer>
+
+    <!-- Background -->
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
   </body>
 </html>
